@@ -1,0 +1,35 @@
+*{
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.my-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2vh;
+  gap: 3vh;
+  flex-wrap: wrap;
+}
+button{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(50, 7, 106);
+  color: #fff;
+  padding: 4vh;
+  font-size: large;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  box-shadow:2px 1px 1px 1px rgb(44, 26, 26);
+}
+button:hover{
+  transform:scale(1.1,1.1);
+}
+.headers{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 4vw;
+}
